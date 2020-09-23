@@ -2,9 +2,9 @@
 
 require 'ymal'
 
-def load_library(file_path)
+def load_library(file_emoticon)
   # code goes here
-  emo_library = YAML.load_file(file_path)
+  emo_library = YAML.load_file(file_emoticon)
   result = emo_library.each_with_object({}) do |(key, value), final_hash|
     if !final_hash[key]
       final_hash[key] = {
