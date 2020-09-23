@@ -1,6 +1,5 @@
 # require modules here
-
-require 'ymal'
+#require 'ymal'
 
 def load_library(file_emoticon)
   # code goes here
