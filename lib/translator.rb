@@ -9,9 +9,10 @@ def load_library(file_path)
     if !final_hash[key]
       final_hash[key] = {
         :english => value[0]
-        :japanese => value[0]
+        :japanese => value[1]
       }
     end
+    result
   end
 end
 
