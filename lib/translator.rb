@@ -3,7 +3,7 @@
 
 def load_library(arg)
   # code goes here
-  emo_library = ymal.load_file(arg)
+  emoticon = YAML.load_file(arg)
   hash.each do |element|
     print "#{element[0]}"
     print "#{element[1][0]}"
