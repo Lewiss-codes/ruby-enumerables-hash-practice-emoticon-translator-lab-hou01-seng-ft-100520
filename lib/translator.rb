@@ -1,9 +1,9 @@
 # require modules here
 #require 'ymal'
 
-def load_library(file_emoticon)
+def load_library(arg)
   # code goes here
-  emo_library = YAML.load_file(file_emoticon)
+  emo_library = YAML.load_file(arg)
   hash.each do |element|
     print "#{element[0]}"
     print "#{element[1][0]}"
