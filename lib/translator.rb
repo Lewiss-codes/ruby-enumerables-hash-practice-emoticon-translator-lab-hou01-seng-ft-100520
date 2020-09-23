@@ -4,10 +4,7 @@
 def load_library(arg)
   # code goes here
   emoticon = yaml.load_file(arg)
-  hash.each do |element|
-    print "#{element[0]}"
-    print "#{element[1][0]}"
-    print "#{element[1][1]}"
+  
   end
 end
 
